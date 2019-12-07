@@ -1,0 +1,6 @@
+
+.vs/
+Intermediate/
+AS_DEBUG/
+*.exe
+*_log.html
