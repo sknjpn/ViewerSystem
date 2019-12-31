@@ -3,8 +3,6 @@
 class EasyViewer
 	: public std::enable_shared_from_this<EasyViewer>
 {
-	friend class ViewerManager;
-
 	bool	m_isMouseoverJudged = true;
 	bool	m_isDestroyed = false;
 	Vec2	m_drawPos = Vec2::Zero();
